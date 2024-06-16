@@ -1,0 +1,20 @@
+{
+    "mStockDataVector": [
+        {
+            "mName": "A",
+            "mPrice": 10.0
+        },
+        {
+            "mName": "B",
+            "mPrice": 20.0
+        },
+        {
+            "mName": "C",
+            "mPrice": 30.0
+        }
+    ],
+    "mStockSimulatorSettings": {
+        "mDefaultStrategy": "random",
+        "mScreenUpdateIntervalSec": 5.0
+    }
+}

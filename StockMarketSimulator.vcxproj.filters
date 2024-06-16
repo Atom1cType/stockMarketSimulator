@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="nlohman">
+      <UniqueIdentifier>{f443b08b-7f9f-4659-9aff-07deda0515c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{570040fe-4c12-4868-abea-35688beb1810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Controllers">
+      <UniqueIdentifier>{b6f9e2bb-64ef-4e0e-95b1-10b8035263c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Data">
+      <UniqueIdentifier>{8244cc3e-e46a-4fc2-a8d1-a92fbc3fd24c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\DataProvider">
+      <UniqueIdentifier>{3ce389dc-2ced-4470-9437-ca7fd806818a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Facades">
+      <UniqueIdentifier>{21bb59da-a111-4781-81df-a412db8482c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Strategies">
+      <UniqueIdentifier>{fd4f6b0c-6539-4b55-8c6f-508f906637c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Observer">
+      <UniqueIdentifier>{582104e0-c328-436e-abd8-78d91401b727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Subject">
+      <UniqueIdentifier>{ae213288-eb28-4871-a146-1c56a789ce43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\MarketRequests">
+      <UniqueIdentifier>{2cf9ea2b-f5e1-4af2-85c1-ebcf002b058e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Utils">
+      <UniqueIdentifier>{991f2003-6941-4305-a55c-09b7e4aff8a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="nlohman\json.hpp">
+      <Filter>nlohman</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Controllers\BaseController.h">
+      <Filter>source\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Controllers\MainController.h">
+      <Filter>source\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Controllers\StockSimulatorController.h">
+      <Filter>source\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Data\StockSimulatorData.h">
+      <Filter>source\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DataProviders\StockSimulatorDataProvider.h">
+      <Filter>source\DataProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Controllers\BaseAsyncController.h">
+      <Filter>source\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Facades\StrategyFacade.h">
+      <Filter>source\Facades</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Strategies\BaseStrategy.h">
+      <Filter>source\Strategies</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Controllers\InputController.h">
+      <Filter>source\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Strategies\RandomStrategy.h">
+      <Filter>source\Strategies</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Strategies\TrendStrategy.h">
+      <Filter>source\Strategies</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Data\NotifyEventsData.h">
+      <Filter>source\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Observer\Observer.h">
+      <Filter>source\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Subject\Subject.h">
+      <Filter>source\Subject</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Controllers\PortfolioController.h">
+      <Filter>source\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Data\MarketRequestData.h">
+      <Filter>source\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MarketRequests\BaseMarketRequest.h">
+      <Filter>source\MarketRequests</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MarketRequests\BuyMarketRequest.h">
+      <Filter>source\MarketRequests</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MarketRequests\SellMarketRequest.h">
+      <Filter>source\MarketRequests</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Utils\Utils.h">
+      <Filter>source\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Controllers\BaseController.cpp">
+      <Filter>source\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Controllers\MainController.cpp">
+      <Filter>source\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Controllers\StockSimulatorController.cpp">
+      <Filter>source\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\StockMarketSimulator.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DataProviders\StockSimulatorDataProvider.cpp">
+      <Filter>source\DataProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Controllers\BaseAsyncController.cpp">
+      <Filter>source\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Facades\StrategyFacade.cpp">
+      <Filter>source\Facades</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Controllers\InputController.cpp">
+      <Filter>source\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Strategies\RandomStrategy.cpp">
+      <Filter>source\Strategies</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Strategies\TrendStrategy.cpp">
+      <Filter>source\Strategies</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Observer\Observer.cpp">
+      <Filter>source\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Subject\Subject.cpp">
+      <Filter>source\Subject</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Controllers\PortfolioController.cpp">
+      <Filter>source\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MarketRequests\BaseMarketRequest.cpp">
+      <Filter>source\MarketRequests</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MarketRequests\BuyMarketRequest.cpp">
+      <Filter>source\MarketRequests</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MarketRequests\SellMarketRequest.cpp">
+      <Filter>source\MarketRequests</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Utils\Utils.cpp">
+      <Filter>source\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
