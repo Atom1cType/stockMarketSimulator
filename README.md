@@ -16,7 +16,7 @@ After launch program will try to load data from json files and start process mar
 > [!NOTE]
 > In some cases if `data` folder is far enough and program can't reach it, few important ojects won't be initialized properly and there is no joy in such market, so try to move files from `data` folder closer to executable file.
 
-After initial setup user will see repeatedly printing message with prices and stocks. To start enter input command we must pass EOF toconsole. <Ctrl+Z> -> Enter for Window, and hope <Ctrl+D> -> Enter for UNIX/Linux. In case of success `Enter command:` message will appear.
+After initial setup user will see repeatedly printing message with prices and stocks. To start enter input command we must pass EOF to console. <Ctrl+Z> -> Enter for Window, and hope <Ctrl+D> -> Enter for UNIX/Linux. In case of success `Enter command:` message will appear.
 From this moment commands can be passed to program. If there will be a typo in command name you will have another chance to enter command, but if command ended or for some command after start invalid data will be passed, user input also will be interrupted and we need again pass EOF to console.
 
 Available commands:

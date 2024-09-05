@@ -41,7 +41,7 @@ std::string Utils::StringToLower(std::string& string)
 	return string;
 }
 
-NotifyEventType Utils::GetNotifyEventTypeByString(std::string & inputString)
+NotifyEventType Utils::GetNotifyEventTypeByString(std::string& inputString)
 {
 	if (inputString == "exit")
 	{

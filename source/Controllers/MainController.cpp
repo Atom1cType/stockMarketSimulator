@@ -52,7 +52,6 @@ void MainController::Initialize()
 	AddControllerToProcess(std::make_shared<InputController>());
 	AddControllerToProcess(std::make_shared<PortfolioController>());
 
-
 	for (std::shared_ptr<BaseController>& backgroundControllerPtr : mBackgroundControllers)
 	{
 		backgroundControllerPtr->Initialize();
